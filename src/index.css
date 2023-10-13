@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://static.cdprojektred.com/thewitcher.com/media/wallpapers/witcher3/full/witcher3_en_wallpaper_halloween_2015_geralt_1600x1200_1446214317.png");
+    font-family: serif, cursive;
+    color: #fff;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container {
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #4a4a4a;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    background-color: #8b4513;
+    /* Marrón */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: serif, cursive;
+    font-size: 25px;
+}
+
+.btn:hover {
+    background-color: #a0522d;
+    /* Marrón más oscuro al pasar el mouse */
+}
+
+h1,
+h2,
+h3 {
+    color: #ffd700;
+    /* Amarillo dorado */
+}
+
+h4,
+h5,
+h6 {
+    color: #fff;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+p {
+    color: #fff;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#pa {
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#pa2 {
+    color: #fff;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 1);
+}
