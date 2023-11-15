@@ -17,9 +17,9 @@ export default defineConfig({
         injectRegister: 'auto',
         includeAssets: ['public/android', 'public/ios', 'public/windows11'],
         manifest: {
-            name: 'Horoscopos React',
-            short_name: 'Horos React',
-            description: 'React and Horoscopos app + PWA',
+            name: 'Bazar Universal',
+            short_name: 'BazarUni',
+            description: 'Bazar Universal app + PWA',
             theme_color: '#ffffff',
             icons: [{
                     "src": "windows11/SmallTile.scale-100.png",

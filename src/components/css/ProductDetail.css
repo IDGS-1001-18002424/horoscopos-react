@@ -1,0 +1,45 @@
+/* DetalleProducto.css */
+
+.detalle-producto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.carousel-container {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.producto-card {
+    width: 70%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+}
+
+
+/* Estilos específicos para el texto dentro de la tarjeta del producto */
+
+.producto-card .card-title,
+.producto-card .card-text,
+.producto-card .list-group-item {
+    color: black !important;
+}
+
+
+/* Estilo para el label de precio */
+
+.producto-card .precio-label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+/* Estilo para el título "Bazar Online" en negro */
+
+.detalle-producto-container h3 {
+    color: black;
+}
